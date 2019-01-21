@@ -40,6 +40,13 @@
 		"oAP": "/css/style.css.map",
 		"oF": 0
 		},
+	"/cv.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/cv.pdf",
+		"oF": 0
+		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -2034,13 +2041,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/sketch/svg files.sketch",
-		"oF": 0
-		},
-	"/video/tierp2030.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/video/tierp2030.mov",
 		"oF": 0
 		}
 	},
