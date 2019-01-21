@@ -1,0 +1,70 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Typeface reference:
+// font-family: "Libre Baskerville", serif;
+// font-family: "HalisR-Book";
+// font-family: "HalisR-Medium";
+// font-family: "HalisR-Bold";
+// font-family: "HalisR-S-Medium";
+
+// Serif font family
+// @type List
+$serif: "Libre Baskerville", serif;
+
+// Sans-serif font family
+// @type List
+$sans-book: "HalisR-Book", sans-serif;
+$sans-reg: "HalisR-Regular", sans-serif;
+$sans-med: "HalisR-Medium", sans-serif;
+$sans-bold: "HalisR-Bold", sans-serif;
+$sans-sc: "HalisR-S-Medium", sans-serif;
+
+// Copy text color
+// @type Color
+$text-color: #222 !default;
+
+// Main brand color
+// @type Color
+$brand-color: #d70000 !default;
+
+// Accent Color 1
+$accent-1: #e69e82 !default;
+
+// Accent Color 2
+$accent-2: #efbfaa !default;
+
+// Link border color 1
+$link-border: #e7e7e0;
+
+// Background color
+$background-color: #fffff8 !default;
+
+// List grey
+$warm-grey: #999994;
+
+// Black
+$black: #000;
+
+// White
+$white: #fff;
+
+// Container's maximum width
+// @type Length
+$max-width: 40rem !default;
+
+// Breakpoints map
+// @prop {String} keys - Keys are identifiers mapped to a given length
+// @prop {Map} values - Values are actual breakpoints expressed in pixels
+//$breakpoints: (
+//  "small": 320px,
+//  "medium": 768px,
+//  "large": 1024px
+//) !default;
+
+// Relative or absolute URL where all assets are served from
+// @type String
+// @example scss - When using a CDN
+//   $base-url: 'http://cdn.example.com/assets/';
+//$base-url: "/assets/" !default;

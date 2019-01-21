@@ -1,0 +1,44 @@
+// Libre Baskerville, Impallari Type via Google fonts
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i");
+
+// Halis Rounded, Ahmet Altun via Fontspring
+// Book, Medium, Bold, Small Cap Medium
+@font-face {
+  font-family: "HalisR-Book";
+  src: url("../fonts/HalisR-Book-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Regular";
+  src: url("../fonts/HalisR-Regular-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Medium";
+  src: url("../fonts/HalisR-Medium-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-Bold";
+  src: url("../fonts/HalisR-Bold-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-Bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HalisR-S-Medium";
+  src: url("../fonts/HalisR-S-Medium-webfont.woff2") format("woff2"),
+    url("../fonts/HalisR-S-Medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
