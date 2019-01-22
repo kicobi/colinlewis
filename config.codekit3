@@ -1954,6 +1954,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/sass/vendor/_loader.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/css/_loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/sass/vendor/_normalize.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1967,7 +1980,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/sass/vendor/responsivelyLazy.scss": {
+	"/sass/vendor/_responsivelyLazy.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1975,7 +1988,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/sass/css/responsivelyLazy.css",
+		"oAP": "/build/sass/css/_responsivelyLazy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2006,7 +2019,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 569809012.32709599
+	"lastBuiltDate": 569810853.60951102
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
