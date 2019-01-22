@@ -270,7 +270,7 @@
 		},
 	"/img/portfolio/books-invis-l.jpg": {
 		"ft": 16384,
-		"iS": 321177,
+		"iS": 305468,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/books-invis-l.jpg",
@@ -545,7 +545,7 @@
 		},
 	"/img/portfolio/mont-home-m.jpg": {
 		"ft": 16384,
-		"iS": 131810,
+		"iS": 255010,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/mont-home-m.jpg",
@@ -1489,7 +1489,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/portfolio/wa-logo.png": {
+	"/img/portfolio/WA-logo.png": {
 		"ft": 32768,
 		"iS": 20667,
 		"oA": 0,
@@ -2006,7 +2006,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 569808663.42040503
+	"lastBuiltDate": 569809012.32709599
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
