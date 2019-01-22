@@ -77,8 +77,10 @@
     // Inline icons for sites, books, etc.
     &--img {
       background-repeat: no-repeat;
-      width: 1.4rem;
+      width: 1.9rem;
       height: auto;
+      vertical-align: top;
+      margin-top: 0.3rem;
     }
 
     // This is the second ¶
@@ -119,10 +121,10 @@
       position: relative;
       margin-left: 1.5rem;
 
-      img {
-        margin: 0 0 -1px 0; // pull icon down 1px over border, push to right to make room for vertical caption
+      object {
         width: 3.5rem;
         height: auto;
+        vertical-align: bottom;
       }
     }
 
@@ -131,7 +133,7 @@
       margin: 0;
       float: right;
 
-      img {
+      object {
         width: 5rem;
         height: auto;
       }
@@ -144,9 +146,8 @@
         // rotate and move the caption to the left of the image
         display: inline-block;
         transform: rotate(270deg);
-        // improve the visual centering of the text with margin and padding
+        transform-origin: center top;
         margin: 0 0 0 -6.6rem;
-        padding-right: 1.4rem;
         font-style: italic;
         color: $accent-1;
       }
