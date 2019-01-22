@@ -23,6 +23,406 @@
 		"oAP": "/build/404.html",
 		"oF": 0
 		},
+	"/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/jquery-unveil/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/jquery-unveil/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/jquery-unveil/img/anti-bullying-tom-froese-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 387125,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/anti-bullying-tom-froese-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/anti-bullying-tom-froese-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 121336,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/anti-bullying-tom-froese-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/brock-davis-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 397290,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/brock-davis-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/brock-davis-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 192704,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/brock-davis-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 501471,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1-800x500.jpg": {
+		"ft": 16384,
+		"iS": 187923,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 522463,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/dark-igloo-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/dark-igloo-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 91322,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/dark-igloo-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/haik-avanian-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 75878,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/haik-avanian-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/haik-avanian-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 28580,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/haik-avanian-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/iceland-smjor-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 214627,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/iceland-smjor-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/iceland-smojr-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 101829,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/iceland-smojr-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/james-olstein-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 498059,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/james-olstein-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/james-olstein-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 87495,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/james-olstein-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/johanna-basford-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 92261,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/johanna-basford-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/Jude_Landry_Wallpaper_1280x800.jpg": {
+		"ft": 16384,
+		"iS": 380648,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/Jude_Landry_Wallpaper_1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/Jude_Landry_Wallpaper_800x500.jpg": {
+		"ft": 16384,
+		"iS": 74721,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/Jude_Landry_Wallpaper_800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/julieta-felix-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 84453,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/julieta-felix-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/julieta-felix-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 50908,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/julieta-felix-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/loader.gif": {
+		"ft": 4194304,
+		"iS": 10423,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/bower_components/jquery-unveil/img/Timothy-J-Reynolds-wallpaper-1280x800.jpg": {
+		"ft": 16384,
+		"iS": 575761,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/Timothy-J-Reynolds-wallpaper-1280x800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/img/Timothy-J-Reynolds-wallpaper-800x500.jpg": {
+		"ft": 16384,
+		"iS": 285431,
+		"jF": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/img/Timothy-J-Reynolds-wallpaper-800x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/bower_components/jquery-unveil/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/index.html",
+		"oF": 0
+		},
+	"/bower_components/jquery-unveil/jquery-1.9.1.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/jquery-1.9.1.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery-unveil/jquery.unveil.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/jquery.unveil.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery-unveil/jquery.unveil.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/jquery.unveil.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/jquery-unveil/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/build/bower_components/jquery-unveil/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/responsively-lazy/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/responsively-lazy/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/responsively-lazy/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/responsively-lazy/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/responsively-lazy/responsivelyLazy.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/responsivelyLazy.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/bower_components/responsively-lazy/responsivelyLazy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/bower_components/responsively-lazy/responsivelyLazy.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/responsively-lazy/responsivelyLazy.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/responsivelyLazy.min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/bower_components/responsively-lazy/responsivelyLazy.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/bower_components/responsively-lazy/responsivelyLazy.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -44,13 +444,6 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/build/css/style.css.map",
-		"oF": 0
-		},
-	"/cv.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/cv.pdf",
 		"oF": 0
 		},
 	"/favicon.ico": {
@@ -146,6 +539,17 @@
 		"iS": 53560,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/.move-triangles~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/portfolio/bg.png": {
+		"ft": 32768,
+		"iS": 52849,
+		"oA": 0,
+		"oAP": "/build/img/portfolio/bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -473,7 +877,7 @@
 		},
 	"/img/portfolio/mont-home-m.jpg": {
 		"ft": 16384,
-		"iS": 131810,
+		"iS": 255010,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/mont-home-m.jpg",
@@ -748,7 +1152,7 @@
 		},
 	"/img/portfolio/move-triangles.png": {
 		"ft": 32768,
-		"iS": 47626,
+		"iS": 55380,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/move-triangles.png",
 		"oF": 0,
@@ -1486,335 +1890,192 @@
 	"/img/svg/arrow-down.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/arrow-down.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/arrow-left.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/arrow-left.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/arrow-right.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/arrow-right.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/books.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/books.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/cl-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/cl-logo.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/cl-logo_2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/cl-logo_2.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/code.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/code.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/email.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/email.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/explosion.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/explosion.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/factory.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/factory.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/fossil.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/fossil.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/github.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/hand.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/linkedin.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/mountaineer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/mountaineer.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/pdf.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/pdf.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/roots-item-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/roots-item-bg.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/tree.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/tree.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
+		"prP": 1
 		},
 	"/img/svg/x.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/svg/x.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/temp/book-invis.jpg": {
-		"ft": 16384,
-		"iS": 321177,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/book-invis.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/books-invis-detail.jpg": {
-		"ft": 16384,
-		"iS": 209920,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/books-invis-detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/books-wed.jpg": {
-		"ft": 16384,
-		"iS": 199996,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/books-wed.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/mont-home.jpg": {
-		"ft": 16384,
-		"iS": 288929,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/mont-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/mont-mat.jpg": {
-		"ft": 16384,
-		"iS": 115808,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/mont-mat.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/mont-menu.jpg": {
-		"ft": 16384,
-		"iS": 56900,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/mont-menu.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/tierp2030-footer.jpg": {
-		"ft": 16384,
-		"iS": 151661,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/tierp2030-footer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/tierp2030-home.jpg": {
-		"ft": 16384,
-		"iS": 273613,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/tierp2030-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/tierp2030-mal.jpg": {
-		"ft": 16384,
-		"iS": 244902,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/tierp2030-mal.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/uo-footer.jpg": {
-		"ft": 16384,
-		"iS": 43197,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/uo-footer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/uo-home.jpg": {
-		"ft": 16384,
-		"iS": 196686,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/uo-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/temp/uo-logo.png": {
-		"ft": 32768,
-		"iS": 34361,
-		"oA": 0,
-		"oAP": "/build/img/temp/uo-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/temp/uo-sub.jpg": {
-		"ft": 16384,
-		"iS": 185439,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/temp/uo-sub.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"prP": 1
 		},
 	"/index.html": {
 		"cB": 0,
@@ -1823,23 +2084,13 @@
 		"oAP": "/build/index.html",
 		"oF": 0
 		},
-	"/js/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/js/main-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/main-min.js",
-		"oF": 0,
+		"oAP": "/build/js/main.min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1848,30 +2099,37 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/plugins-min.js",
-		"oF": 0,
+		"oAP": "/build/js/plugins.min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
 	"/js/vendor/jquery-3.3.1.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "/build/js/vendor/jquery-3.3.1.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oAP": "/build/js/vendor/jquery-3.3.1.min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"/js/vendor/modernizr-3.6.0.min.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "/build/js/vendor/modernizr-3.6.0.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oAP": "/build/js/vendor/modernizr-3.6.0.min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
+		},
+	"/pdf/cv.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/pdf/cv.pdf",
+		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -1881,9 +2139,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1963,6 +2221,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/sass/base/_fouc.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/css/_fouc.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/sass/base/_helpers.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2012,7 +2283,7 @@
 		"oA": 0,
 		"oAP": "/build/css/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/sass/vendor/_normalize.scss": {
@@ -2028,31 +2299,38 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/sass/vendor/responsivelyLazy.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/sass/css/responsivelyLazy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/site.webmanifest",
 		"oF": 0
-		},
-	"/sketch/comp_01.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/sketch/comp_01.sketch",
-		"oF": 0
-		},
-	"/sketch/svg files.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/sketch/svg files.sketch",
-		"oF": 0
 		}
 	},
 "hooks": [
 	],
 "manualImportLinks": {
+	"/js/plugins.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/responsively-lazy/responsivelyLazy.js",
+			"position": 0,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 566339604.64474797,
@@ -2060,7 +2338,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 569780329.81560504
+	"lastBuiltDate": 569807824.39733398
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
