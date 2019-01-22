@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
 		$('.project__close').addClass('is-visible');
 		$('.project__overlay').addClass('is-visible');
 
-		// Firefox transitions break when parent overflow is changed. Wait for the end of the trasition before adding overflow hidden to the body.
+		// Firefox transitions break when parent overflow is changed. Wait for the end of the transition before adding overflow hidden to the body.
 		if( is_firefox ) {
 			$('.container').addClass('slide-out').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				$('body').addClass('overflow-hidden');
@@ -56,4 +56,12 @@ jQuery(document).ready(function($){
 			$('body').removeClass('overflow-hidden');
 		}
 	});
+});
+
+
+// Lazy load images
+// Unveil
+// https://github.com/luis-almeida/unveil
+$(document).ready(function() {
+  $("img").unveil();
 });
