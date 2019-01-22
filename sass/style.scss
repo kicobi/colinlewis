@@ -4,7 +4,7 @@
 @import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
 
 // 2. Vendors
-@import "vendor/normalize";
+@import "vendor/normalize", "vendor/responsivelyLazy";
 
 // 3. Base stuff
 @import "base/base", "base/fonts", "base/helpers";
@@ -14,3 +14,6 @@
 
 // 5. Page-specific styles
 @import "pages/home";
+
+// 6. Anti-FOUC
+@import "base/fouc";
