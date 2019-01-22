@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 
 	// Open a project from inside an open project
 	// Find the link within the open .project div
-	$('.project').find('a').on('click', function(event){
+	$('.project').find('a.int').on('click', function(event){
 		event.preventDefault();
 		var selected_project = $(this).data('type');
 		// Close the visible project
@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
 	});
 
 	// Close a project
-	$(document).on('click', '.project__overlay, .project__close', function(event){
+	$(document).on('click', '.project__overlay, .project__close', 'int', function(event){
 		event.preventDefault();
 		// Remove classes
 		$('.project').removeClass('slide-in');
@@ -59,9 +59,23 @@ jQuery(document).ready(function($){
 });
 
 
-// Lazy load images
-// Unveil
-// https://github.com/luis-almeida/unveil
-$(document).ready(function() {
-  $("img").unveil();
-});
+// Preload the page and show the loading image
+jQuery(document).ready(function($){
+		$(window).on('load', function() {
+			var loaderContainerFadeOutTime = 750;
+			var loaderFadeOutTime = 150;
+			function hideLoader() {
+				var loaderContainer = $('.loader-container');
+				loaderContainer.fadeOut(loaderContainerFadeOutTime);
+				var loader = $('.loader');
+				loader.fadeOut(loaderFadeOutTime);
+			}
+			hideLoader();
+		});
+		$(window).on('load', function() {
+			function hidePreload() {
+		  $("body").removeClass("preload");
+			}
+			hidePreload();
+		});
+	});
