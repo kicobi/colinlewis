@@ -70,7 +70,7 @@
 
       strong {
         font-weight: normal;
-        font-family: $sans-sc;
+        font-family: $sans-sc-special;
       }
     }
 
@@ -197,10 +197,13 @@
   a,
   a:link,
   a:visited {
-    font-family: $sans-book;
+    font-family: $sans-reg;
+    color: $brand-color;
   }
   a strong {
-    font-family: $sans-med;
+    color: darken($brand-color, 3%);
+    font-family: $sans-sc;
+    text-transform: lowercase;
   }
 
   &__recently,
@@ -226,10 +229,10 @@
       font-family: $sans-med;
       color: $warm-grey;
       font-size: 1.2rem; // set the size of the list numbers
-      margin: 0 0 0 2.75rem; // the item's left-padding + the list's left margin = the total left-margin for the section headings.
-      // Safari can't parse the margin correctly.
-      //-webkit-padding-start: 0;
       list-style: decimal outside none;
+      margin: 0 0 0 2.75rem;
+      // the item's left-padding + the list's left margin = the total left-margin for the section headings.
+      // Safari can't parse the margin correctly
 
       li {
         margin: 0;
@@ -298,7 +301,7 @@
       font-style: italic;
       font-size: 1.4rem;
       margin-top: 4rem;
-      padding: 5rem 0 1rem 0;
+      padding: 5rem 0 2rem 0;
       display: inline-block;
       background: url("../img/svg/arrow-down.svg") no-repeat top left;
       background-size: 1.5rem auto;
@@ -336,7 +339,7 @@
       letter-spacing: 0.03rem;
       text-transform: uppercase;
       text-align: right;
-      font-size: 0.6rem;
+      font-size: 0.8rem;
       color: $warm-grey;
 
       li {
