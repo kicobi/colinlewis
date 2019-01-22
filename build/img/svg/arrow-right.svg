@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>arrow-right</title>
-    <desc>Created with Sketch.</desc>
-    <g id="arrow-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(5.000000, 32.000000)" fill="#675A5A" id="Path">
-            <path d="M19.3695652,19.5652174 C18.4617391,24.03 14.5134783,27.3913043 9.7826087,27.3913043 C4.37869565,27.3913043 0,23.0126087 0,17.6086957 C0,12.2047826 4.37869565,7.82608696 9.7826087,7.82608696 C14.5134783,7.82608696 18.4617391,11.1873913 19.3695652,15.6521739 L54.7826087,15.6521739 L54.7826087,0 L90,17.6086957 L54.7826087,35.2173913 L54.7826087,19.5652174 L19.3695652,19.5652174 Z"></path>
-        </g>
-    </g>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        arrow-right
+    </title>
+    <path d="M24.37 51.565c-.908 4.465-4.857 7.826-9.587 7.826A9.781 9.781 0 0 1 5 49.61a9.781 9.781 0 0 1 9.783-9.783c4.73 0 8.679 3.361 9.587 7.826h35.413V32L95 49.609 59.783 67.217V51.565H24.37z" fill="#675A5A" fill-rule="evenodd"/>
 </svg>
