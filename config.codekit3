@@ -224,28 +224,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/portfolio/.move-triangles~imageoptim.png": {
-		"ft": 32768,
-		"iS": 53560,
-		"oA": 0,
-		"oAP": "/build/img/portfolio/.move-triangles~imageoptim.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/portfolio/bg.png": {
-		"ft": 32768,
-		"iS": 52849,
-		"oA": 0,
-		"oAP": "/build/img/portfolio/bg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/portfolio/books-invis-detail-l.jpg": {
 		"ft": 16384,
 		"iS": 189968,
@@ -292,7 +270,7 @@
 		},
 	"/img/portfolio/books-invis-l.jpg": {
 		"ft": 16384,
-		"iS": 305468,
+		"iS": 321177,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/books-invis-l.jpg",
@@ -567,7 +545,7 @@
 		},
 	"/img/portfolio/mont-home-m.jpg": {
 		"ft": 16384,
-		"iS": 255010,
+		"iS": 131810,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/mont-home-m.jpg",
@@ -1511,7 +1489,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/portfolio/WA-logo.png": {
+	"/img/portfolio/wa-logo.png": {
 		"ft": 32768,
 		"iS": 20667,
 		"oA": 0,
