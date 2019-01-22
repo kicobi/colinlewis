@@ -15,11 +15,12 @@ $serif: "Libre Baskerville", serif;
 
 // Sans-serif font family
 // @type List
-$sans-book: "HalisR-Book", sans-serif;
+//$sans-book: "HalisR-Book", sans-serif; // reworked design to save font download time
 $sans-reg: "HalisR-Regular", sans-serif;
 $sans-med: "HalisR-Medium", sans-serif;
-$sans-bold: "HalisR-Bold", sans-serif;
+// $sans-bold: "HalisR-Bold", sans-serif; // reworked design to save font download time
 $sans-sc: "HalisR-S-Medium", sans-serif;
+$sans-sc-special: "HalisR-S-Medium", serif; // for the intro paragraph that mixes font weights – in case no fonts load, the entire thing will default to serif
 
 // Copy text color
 // @type Color
@@ -35,6 +36,9 @@ $accent-1: #e69e82 !default;
 // Accent Color 2
 $accent-2: #efbfaa !default;
 
+// Accent Color 3
+$accent-3: #f0e9e2 !default;
+
 // Link border color 1
 $link-border: #e7e7e0;
 
@@ -43,6 +47,9 @@ $background-color: #fffff8 !default;
 
 // List grey
 $warm-grey: #999994;
+
+// logo bg
+$logo-brown: #2c2525;
 
 // Black
 $black: #000;
