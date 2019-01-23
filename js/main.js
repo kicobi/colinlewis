@@ -62,7 +62,7 @@ jQuery(document).ready(function($){
 // Preload the page and show the loading image
 jQuery(document).ready(function($){
 		$(window).on('load', function() {
-			var loaderContainerFadeOutTime = 750;
+			var loaderContainerFadeOutTime = 500;
 			var loaderFadeOutTime = 150;
 			function hideLoader() {
 				var loaderContainer = $('.loader-container');
