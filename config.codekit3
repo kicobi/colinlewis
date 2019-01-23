@@ -1082,6 +1082,17 @@
 		"opt": 1,
 		"q": 85
 		},
+	"/img/portfolio/ro-l.jpg": {
+		"ft": 16384,
+		"iS": 89649,
+		"jF": 2,
+		"oA": 0,
+		"oAP": "/build/img/portfolio/ro-l.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 85
+		},
 	"/img/portfolio/ro-l.png": {
 		"ft": 32768,
 		"iS": 219325,
