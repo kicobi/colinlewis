@@ -14,10 +14,6 @@
 
   <body class="preload">
 
-    <div class="loader-container">
-      <div class="loader"></div>
-    </div>
-
     <div class="container">
 
       <main>
@@ -25,14 +21,14 @@
         <header class="header">
 
           <div class="header__logo">
-            <div class="header__logo--wrapper">
+            <div class="header__logo--wrapper animate animate fade-in delay-2">
               <object type="image/svg+xml" data="img/svg/cl-logo.svg" alt="" class="header__logo--img"></object>
             </div>
           </div>
 
-          <h1 class="header__heading">Colin Lewis</h1>
-          <p class="header__intro header__intro--1-1">I am a storyteller.</p>
-          <p class="header__intro header__intro--1-2">I tell stories with words, pictures, and code, work as a <strong>designer</strong> and <strong>frontend developer</strong>, and make <strong>sites</strong>
+          <h1 class="header__heading animate fade-in-down">Colin Lewis</h1>
+          <p class="header__intro header__intro--1-1 animate animate-slow fade-in delay-1">I am a storyteller.</p>
+          <p class="header__intro header__intro--1-2 animate animate fade-in delay-2">I tell stories with words, pictures, and code, work as a <strong>designer</strong> and <strong>frontend developer</strong>, and make <strong>sites</strong>
 
             <object type="image/svg+xml" alt="" data="img/svg/code.svg" class="header__intro--img header__intro--img-sites"></object>
             and <strong>apps</strong>
@@ -42,14 +38,15 @@
             .</p>
 
           <div class="header__figure--wrapper-1">
-            <div class="header__figure--1">
+            <div class="header__figure--1 animate animate fade-in delay-2">
               <object type="image/svg+xml" data="img/svg/factory.svg" alt=""></object>
               <div class="header__figure--figcaption-1">fig. 1</div>
             </div>
 
-            <p class="header__intro header__intro--2 clearfix">Goals: solve problems by telling a good story. Tell good stories by solving a problem. Find surprises, find what’s valuable. Make something that matters.</p>
+            <p class="header__intro header__intro--2 clearfix animate animate fade-in delay-2">Goals: solve problems by telling a good story. Tell good stories by solving a problem. Find surprises, find what’s valuable. Make something that
+              matters.</p>
 
-            <div class="header__figure--2">
+            <div class="header__figure--2 animate animate fade-in delay-2">
               <object type="image/svg+xml" data="img/svg/explosion.svg" alt=""></object>
               <div class="header__figure--figcaption-2">fig. 2</div>
             </div>
@@ -58,7 +55,7 @@
         </header>
 
 
-        <section class="section section__projects project-list">
+        <section class="section section__projects project-list animate fade-in delay-2">
 
           <!-- Recently -->
           <section class="section section__recently">
@@ -88,7 +85,7 @@
 
 
         <!-- Roots -->
-        <section class="section section__roots">
+        <section class="section section__roots animate fade-in delay-2">
           <span class="section__roots--icon"></span>
           <h2 class="section__heading">Roots & branches</h2>
           <ul class="section__roots--list">
@@ -100,7 +97,7 @@
         <!-- /Roots -->
 
 
-        <footer>
+        <footer class="animate fade-in delay-2">
           <p class="footer footer__outro clearfix">
             <!-- Contact link obfuscation with CSS fallback via http://rot13.florianbersier.com -->
             <span id="obf" class="footer__outro--link clearfix">
@@ -116,7 +113,7 @@
 
             <ul class="footer__outro--links clearfix">
               <li>
-                T: <a href="+46 73 033 8904">+46 73 033 8904</a>
+                T: <a href="tel:+46 73 033 8904">+46 73 033 8904</a>
               </li>
               <li>
                 E:
@@ -177,7 +174,7 @@
       <!-- Images -->
       <section class="project__section project__section--images">
         <figure>
-          <img src="img/portfolio/mont-home-xxs.jpg" data-srcset="img/portfolio/mont-home-xs.jpg 320w,
+          <img src="img/portfolio/mont-home-s.jpg" data-srcset="img/portfolio/mont-home-xs.jpg 320w,
                   img/portfolio/mont-home-s.jpg 420w,
                   img/portfolio/mont-home-m.jpg, 600w,
                   img/portfolio/mont-home-l.jpg 1000w"
@@ -232,13 +229,13 @@
       <!-- Image -->
       <section class="project__section project__section--images">
         <figure>
-          <img src="img/portfolio/uo-home-xxs.jpg" data-srcset="img/portfolio/uo-home-xs.jpg 320w,
+          <img src="img/portfolio/uo-home-s.jpg" data-srcset="img/portfolio/uo-home-xs.jpg 320w,
                   img/portfolio/uo-home-s.jpg 420w,
                   img/portfolio/uo-home-m.jpg, 600w,
                   img/portfolio/uo-home-l.jpg 1000w"
             alt="Unlikely Objects website detail" class="project__image responsively-lazy">
 
-          <img src="img/portfolio/uo-sub-xxs.jpg" data-srcset="img/portfolio/uo-sub-xs.jpg 320w,
+          <img src="img/portfolio/uo-sub-s.jpg" data-srcset="img/portfolio/uo-sub-xs.jpg 320w,
                   img/portfolio/uo-sub-s.jpg 420w,
                   img/portfolio/uo-sub-m.jpg, 600w,
                   img/portfolio/uo-sub-l.jpg 1000w"
@@ -287,18 +284,19 @@
 
         <ul>
           <li><a href="https://tierp2030.nu/" target="_blank" class="project__link">Launch website</a></li>
+          <li><a href="https://github.com/unlikelyobjects/t-2030" target="_blank" class="project__link">GitHub repo</a></li>
         </ul>
       </section>
 
       <!-- Image -->
       <section class="project__section project__section--images">
-        <figure><img src="img/portfolio/tierp2030-home-xxs.jpg" data-srcset="img/portfolio/tierp2030-home-xs.jpg 320w,
+        <figure><img src="img/portfolio/tierp2030-home-s.jpg" data-srcset="img/portfolio/tierp2030-home-xs.jpg 320w,
                   img/portfolio/tierp2030-home-s.jpg 420w,
                   img/portfolio/tierp2030-home-m.jpg, 600w,
                   img/portfolio/tierp2030-home-l.jpg 1000w"
             alt="Tierp2030 website detail" class="project__image responsively-lazy">
 
-          <img src="img/portfolio/tierp2030-mal-xxs.jpg" data-srcset="img/portfolio/tierp2030-mal-xs.jpg 320w,
+          <img src="img/portfolio/tierp2030-mal-s.jpg" data-srcset="img/portfolio/tierp2030-mal-xs.jpg 320w,
                   img/portfolio/tierp2030-mal-s.jpg 420w,
                   img/portfolio/tierp2030-mal-m.jpg, 600w,
                   img/portfolio/tierp2030-mal-l.jpg 1000w"
@@ -350,13 +348,13 @@
 
       <!-- Image -->
       <section class="project__section project__section--images">
-        <figure><img src="img/portfolio/books-invis-detail-xxs.jpg" data-srcset="img/portfolio/books-invis-detail-xs.jpg 320w,
+        <figure><img src="img/portfolio/books-invis-detail-s.jpg" data-srcset="img/portfolio/books-invis-detail-xs.jpg 320w,
                   img/portfolio/books-invis-detail-s.jpg 420w,
                   img/portfolio/books-invis-detail-m.jpg, 600w,
                   img/portfolio/books-invis-detail-l.jpg 1000w"
             alt="The Invisible D - detail" class="project__image responsively-lazy">
 
-          <img src="img/portfolio/books-invis-xxs.jpg" data-srcset="img/portfolio/books-invis-xs.jpg 320w,
+          <img src="img/portfolio/books-invis-s.jpg" data-srcset="img/portfolio/books-invis-xs.jpg 320w,
                   img/portfolio/books-invis-s.jpg 420w,
                   img/portfolio/books-invis-m.jpg, 600w,
                   img/portfolio/books-invis-l.jpg 1000w"
@@ -399,13 +397,13 @@
 
       <!-- Image -->
       <section class="project__section project__section--images">
-        <figure><img src="img/portfolio/move-mal-xxs.jpg" data-srcset="img/portfolio/move-mal-xs.png 320w,
+        <figure><img src="img/portfolio/move-mal-s.png" data-srcset="img/portfolio/move-mal-xs.png 320w,
                   img/portfolio/move-mal-s.png 420w,
                   img/portfolio/move-mal-m.png, 600w,
                   img/portfolio/move-mal-l.png 1000w"
             alt="Team management app detail" class="project__image responsively-lazy">
 
-          <img src="img/portfolio/move-report-xxs.jpg" data-srcset="img/portfolio/move-report-xs.png 320w,
+          <img src="img/portfolio/move-report-xs.png" data-srcset="img/portfolio/move-report-xs.png 320w,
                   img/portfolio/move-report-s.png 420w,
                   img/portfolio/move-report-m.png, 600w,
                   img/portfolio/move-report-l.png 1000w"
@@ -444,7 +442,7 @@
 
       <!-- Image -->
       <section class="project__section project__section--images">
-        <figure><img src="img/portfolio/ro-xxs.jpg" data-srcset="img/portfolio/ro-xs.png 320w,
+        <figure><img src="img/portfolio/ro-s.png" data-srcset="img/portfolio/ro-xs.png 320w,
                   img/portfolio/ro-s.png 420w,
                   img/portfolio/ro-m.png, 600w,
                   img/portfolio/ro-l.jpg 1000w" alt="Recovery Online"
@@ -453,7 +451,7 @@
         </figure>
 
         <figure>
-          <img src="img/portfolio/ukk-xxs.jpg" data-srcset="img/portfolio/ukk-xs.jpg 320w,
+          <img src="img/portfolio/ukk-s.jpg" data-srcset="img/portfolio/ukk-xs.jpg 320w,
                   img/portfolio/ukk-s.jpg 420w,
                   img/portfolio/ukk-m.jpg, 600w,
                   img/portfolio/ukk-l.jpg 1000w" alt="UKK"

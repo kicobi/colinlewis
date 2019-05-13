@@ -622,7 +622,7 @@
 		},
 	"/img/portfolio/mont-home-m.jpg": {
 		"ft": 16384,
-		"iS": 255010,
+		"iS": 131810,
 		"jF": 2,
 		"oA": 0,
 		"oAP": "/build/img/portfolio/mont-home-m.jpg",
@@ -2134,6 +2134,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/pdf/cv.pdf",
+		"oF": 0
+		},
+	"/pdf/cv_sv.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/pdf/cv_sv.pdf",
 		"oF": 0
 		},
 	"/README.md": {

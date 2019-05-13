@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// This is a simple, one-page site – most everything goes here.
+// Main page
 // -----------------------------------------------------------------------------
 
 .container {
@@ -359,5 +359,180 @@
         }
       }
     }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Animations
+// -----------------------------------------------------------------------------
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade_in_up {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fade_in_up_big {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fade_in_down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fade_in_left {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade_in_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.animate {
+  animation-duration: 3000ms;
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation-fill-mode: both;
+}
+
+.animate-slow {
+  animation-duration: 3000ms;
+}
+
+.animate-fast {
+  animation-duration: 2500ms;
+}
+
+.delay-1 {
+  animation-delay: 1s;
+}
+
+.delay-2 {
+  animation-delay: 2s;
+}
+
+.delay-3 {
+  animation-delay: 2.3s;
+}
+
+.delay-4 {
+  animation-delay: 2.3s;
+}
+
+.delay-5 {
+  animation-delay: 2.3s;
+}
+
+.delay-6 {
+  animation-delay: 2.3s;
+}
+
+.delay-7 {
+  animation-delay: 2.7s;
+}
+
+.delay-8 {
+  animation-delay: 8s;
+}
+
+.delay-9 {
+  animation-delay: 9s;
+}
+
+.delay-10 {
+  animation-delay: 10s;
+}
+
+.fade-in {
+  animation-name: fade_in;
+}
+
+.fade-out {
+  animation-name: fade_out;
+}
+
+.fade-in-up {
+  animation-name: fade_in_up;
+}
+
+.fade-in-up-big {
+  animation-name: fade_in_up_big;
+}
+
+.fade-in-down {
+  animation-name: fade_in_down;
+}
+
+.fade-out-down {
+  animation-name: fade_out_down;
+}
+
+.fade-in-left {
+  animation-name: fade_in_left;
+}
+
+.fade-in-right {
+  animation-name: fade_in_right;
+}
+
+@keyframes animate_gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
