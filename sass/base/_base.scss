@@ -47,13 +47,18 @@ body {
 /**
  * Basic styles for links
  */
-a {
+a,
+a.mark {
   color: $brand-color;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba($accent-5, 0.75);
+  text-decoration-style: dotted;
 
   @include on-event {
-    color: darken($brand-color, 30%);
-    border-bottom: 1px dotted $link-border;
+    color: $text-color;
+    // text-decoration-color: rgba($text-color, 0.35);
+    // border-bottom: 1px dotted $link-border;
   }
 }
 

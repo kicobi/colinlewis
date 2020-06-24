@@ -15,8 +15,8 @@
   background-color: $accent-1;
 
   border-radius: 100%;
-  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
-  animation: sk-scaleout 1s infinite ease-in-out;
+  -webkit-animation: sk-scaleout 0.25s infinite ease-in-out;
+  animation: sk-scaleout 0.25s infinite ease-in-out;
 }
 
 @keyframes sk-scaleout {

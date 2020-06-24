@@ -118,12 +118,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -240,6 +234,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/index.html",
+		"oF": 0
 		},
 	"/img/portfolio/books-invis-detail-l.jpg": {
 		"ft": 16384,
@@ -2285,6 +2287,28 @@
 		"plM": 3758088191,
 		"prP": 1
 		},
+	"/img/Unlikely_Objects_mark.png": {
+		"ft": 32768,
+		"iS": 31466,
+		"oA": 0,
+		"oAP": "/build/img/Unlikely_Objects_mark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Unlikely_Objects_mark_bw.png": {
+		"ft": 32768,
+		"iS": 33788,
+		"oA": 0,
+		"oAP": "/build/img/Unlikely_Objects_mark_bw.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2576,7 +2600,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 595174336.42101097
+	"lastBuiltDate": 614734499.62645698
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

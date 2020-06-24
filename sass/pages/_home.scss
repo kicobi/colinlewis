@@ -41,12 +41,14 @@
   &__heading {
     font-family: $sans-med;
     color: $brand-color;
+    color: $text-color;
     font-size: 2rem;
     display: inline-block; // center the bg img under the heading
     margin: 0 0 1.2rem 0;
     padding: 8rem 0 5.5rem 0;
     background: url("../img/svg/arrow-down.svg") no-repeat bottom center;
-    background-size: 1.2rem auto;
+    background-size: 0.75em auto;
+    font-weight: normal;
   }
 
   &__intro {
@@ -77,7 +79,7 @@
     // Inline icons for sites, books, etc.
     &--img {
       background-repeat: no-repeat;
-      width: 1.9rem;
+      width: 1.8rem;
       height: auto;
       vertical-align: top;
       margin-top: 0.3rem;
@@ -117,7 +119,7 @@
     }
 
     &--1 {
-      border-bottom: 1px solid $accent-1;
+      border-bottom: 1px solid $accent-4;
       position: relative;
       margin-left: 1.5rem;
 
@@ -149,13 +151,13 @@
         transform-origin: center top;
         margin: 0 0 0 -6.6rem;
         font-style: italic;
-        color: $accent-1;
+        color: $accent-5;
       }
 
       &-2 {
         text-align: center;
         font-style: italic;
-        color: $accent-1;
+        color: $accent-5;
       }
     }
   }
@@ -168,19 +170,13 @@
 .section {
   font-size: 1.7rem;
 
-  &__projects {
-    clear: both;
-    padding-top: 0.5rem;
-  }
-
   &__heading {
     color: $text-color;
     font-family: $sans-sc;
     text-transform: lowercase;
-    padding-left: 5rem; // align with list items
     position: relative;
-    line-height: 3.5rem; // center with icon, value equals icon base height)
     font-size: inherit;
+    font-weight: normal;
   }
 }
 
@@ -188,7 +184,7 @@
 // ------------------------------------
 
 .section {
-  margin-bottom: 4rem; // add space between the sections
+  margin-bottom: 6rem;
 
   a,
   a:link {
@@ -199,6 +195,7 @@
   a:visited {
     font-family: $sans-reg;
     color: $brand-color;
+    color: $text-color;
   }
   a strong {
     color: darken($brand-color, 3%);
@@ -206,83 +203,71 @@
     text-transform: lowercase;
   }
 
-  &__recently,
-  &__previously,
+  &__work {
+    clear: both;
+    padding-top: 4rem;
+
+    &--figure {
+      margin: 0;
+      background-color: #f48621;
+    }
+
+    &--img {
+      width: 50%;
+      margin: auto;
+      display: block;
+      padding: 3rem;
+    }
+
+    &--link {
+      font-weight: normal;
+      font-family: $sans-sc-special;
+      color: $brand-color !important;
+    }
+  }
+
   &__roots {
-    &--icon {
-      float: left;
-      border-radius: 100rem;
-      background-color: $background-color;
-      background-repeat: no-repeat;
-      background-size: 3.5rem 3.5rem;
-      width: 3.5rem;
-      height: 3.5rem;
-      box-shadow: 0 0 2.5rem 0 rgba($black, 0.1);
-    }
-  }
-  &__recently {
-    &--icon {
-      background-image: url("../img/svg/mountaineer.svg");
-    }
-
     &--list {
-      font-family: $sans-med;
-      color: $warm-grey;
-      font-size: 1.2rem; // set the size of the list numbers
-      list-style: decimal outside none;
-      margin: 0 0 0 2.75rem;
-      // the item's left-padding + the list's left margin = the total left-margin for the section headings.
-      // Safari can't parse the margin correctly
+      margin-left: 0;
 
-      li {
-        margin: 0;
-        padding: 0.5rem 8rem 0.5rem 2.25rem; // the item's left-padding + the list's left margin = the total left-margin for the section headings
-      }
-
-      li::after {
-        @include list-arrow;
-      }
-    }
-  }
-
-  &__previously {
-    &--icon {
-      background-image: url("../img/svg/fossil.svg");
-    }
-
-    &--list {
-      margin-left: 5rem;
-      li::after {
-        @include list-arrow;
-      }
-    }
-  }
-  &__roots {
-    &--icon {
-      background-image: url("../img/svg/tree.svg");
-    }
-    &--list {
-      margin-left: 5rem;
       &-item-cv::after {
         @include roots-bg;
         background-image: url("../img/svg/pdf.svg");
       }
+
       &-item-linkedin::after {
         @include roots-bg;
         background-image: url("../img/svg/linkedin.svg");
       }
+
       &-item-github::after {
         @include roots-bg;
         background-image: url("../img/svg/github.svg");
       }
+
       li {
         padding: 0.5rem 0;
         background-image: url("../img/svg/roots-item-bg.svg");
         background-repeat: repeat-x;
         background-position: center left;
-        a {
+        position: relative;
+
+        span {
           background-color: $background-color;
           padding-right: 0.5rem;
+        }
+
+        a {
+          display: block;
+          text-decoration: none;
+
+          @include on-event {
+            color: $brand-color;
+            border: none;
+            text-decoration: underline;
+            text-decoration-color: $accent-5;
+            text-underline-offset: 3px;
+          }
         }
       }
     }
@@ -319,20 +304,6 @@
         opacity: 0.8;
       }
     }
-
-    /*
-    &--main {
-      margin-top: 4rem;
-      display: inline-block;
-      float: right;
-      font-family: $serif;
-      font-style: italic;
-      font-size: 0.9rem;
-      text-align: right;
-      line-height: 1.35;
-      width: 23rem;
-    }
-    */
 
     &--links {
       font-family: $sans-reg;
