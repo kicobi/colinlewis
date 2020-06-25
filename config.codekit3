@@ -2361,14 +2361,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/pdf/cv.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/pdf/cv.pdf",
-		"oF": 0
-		},
 	"/pdf/cv_sv.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -2600,7 +2592,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 614734499.62645698
+	"lastBuiltDate": 614768361.14347804
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
