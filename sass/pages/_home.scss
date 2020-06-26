@@ -77,12 +77,18 @@
     }
 
     // Inline icons for sites, books, etc.
-    &--img {
-      background-repeat: no-repeat;
+    // &--img {
+    //   background-repeat: no-repeat;
+    //   width: 1.8rem;
+    //   height: auto;
+    //   vertical-align: top;
+    //   margin-top: 0.3rem;
+    // }
+
+    .inline-illustration {
+      fill: #2c2525;
       width: 1.8rem;
-      height: auto;
-      vertical-align: top;
-      margin-top: 0.3rem;
+      vertical-align: sub;
     }
 
     // This is the second ¶
@@ -184,7 +190,7 @@
 // ------------------------------------
 
 .section {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 
   a,
   a:link {
@@ -205,7 +211,7 @@
 
   &__work {
     clear: both;
-    padding-top: 4rem;
+    padding-top: 3rem;
 
     &--figure {
       margin: 0;
