@@ -2127,16 +2127,6 @@
 		"plM": 3758088191,
 		"prP": 1
 		},
-	"/img/svg/books.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/svg/books.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 3758088191,
-		"prP": 1
-		},
 	"/img/svg/cl-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2152,16 +2142,6 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/svg/cl-logo_2.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 3758088191,
-		"prP": 1
-		},
-	"/img/svg/code.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/svg/code.svg",
 		"oF": 1,
 		"opt": 1,
 		"plM": 3758088191,
@@ -2212,16 +2192,6 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/build/img/svg/github.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 3758088191,
-		"prP": 1
-		},
-	"/img/svg/hand.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/build/img/svg/hand.svg",
 		"oF": 1,
 		"opt": 1,
 		"plM": 3758088191,
@@ -2592,7 +2562,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 614768361.14347804
+	"lastBuiltDate": 614853777.74911296
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
