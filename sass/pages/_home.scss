@@ -322,7 +322,7 @@
       li {
         display: inline-block;
 
-        &:nth-child(1):after {
+        &:nth-child(-n + 2):after {
           content: "//";
           color: $accent-1;
         }

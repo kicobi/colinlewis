@@ -118,6 +118,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2127,6 +2133,16 @@
 		"plM": 3758088191,
 		"prP": 1
 		},
+	"/img/svg/books.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/svg/books.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088191,
+		"prP": 1
+		},
 	"/img/svg/cl-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2144,6 +2160,16 @@
 		"oAP": "/build/img/svg/cl-logo_2.svg",
 		"oF": 1,
 		"opt": 1,
+		"plM": 3758088191,
+		"prP": 1
+		},
+	"/img/svg/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/svg/code.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088191,
 		"prP": 1
 		},
@@ -2194,6 +2220,16 @@
 		"oAP": "/build/img/svg/github.svg",
 		"oF": 1,
 		"opt": 1,
+		"plM": 3758088191,
+		"prP": 1
+		},
+	"/img/svg/hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/svg/hand.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088191,
 		"prP": 1
 		},
@@ -2330,6 +2366,14 @@
 		"oF": 2,
 		"sC": 0,
 		"tS": 0
+		},
+	"/pdf/cv.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/pdf/cv.pdf",
+		"oF": 0
 		},
 	"/pdf/cv_sv.pdf": {
 		"cB": 0,
