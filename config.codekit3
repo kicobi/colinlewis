@@ -118,12 +118,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2606,7 +2600,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 614854246.06308603
+	"lastBuiltDate": 622472378.00652695
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
