@@ -47,18 +47,41 @@ body {
 /**
  * Basic styles for links
  */
+
+a {
+  transition: 250ms;
+}
+
+// a,
+// a.mark {
+//   color: $text-color;
+//   text-decoration: underline;
+//   text-underline-offset: 3px;
+//   text-decoration-color: rgba($text-color, 0.2);
+//   text-decoration-style: solid;
+//   text-decoration-thickness: 3px;
+
+//   @include on-event {
+//     color: $text-color;
+//     // text-decoration-color: rgba($text-color, 0.35);
+//     // border-bottom: 1px dotted $link-border;
+//   }
+// }
+
 a,
-a.mark {
-  color: $brand-color;
-  text-decoration: underline;
+a:link,
+a:visited {
+  font-family: $sans-sc;
+  color: $text-color;
+  text-transform: lowercase;
   text-underline-offset: 4px;
-  text-decoration-color: rgba($accent-5, 0.75);
-  text-decoration-style: dotted;
+  text-decoration-color: $link-blue;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  transition: 2s;
 
   @include on-event {
-    color: $text-color;
-    // text-decoration-color: rgba($text-color, 0.35);
-    // border-bottom: 1px dotted $link-border;
+    text-decoration-color: $text-color;
   }
 }
 
@@ -91,7 +114,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin: 0.5rem 0;
   padding: 0;
 }
 

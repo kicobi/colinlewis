@@ -3,15 +3,24 @@
 // -----------------------------------------------------------------------------
 
 // Typeface reference:
-// font-family: "Libre Baskerville", serif;
 // font-family: "HalisR-Book";
 // font-family: "HalisR-Medium";
 // font-family: "HalisR-Bold";
 // font-family: "HalisR-S-Medium";
+//
+// Tisa Pro Regular
+// font-family: ff-tisa-web-pro, serif;
+// font-weight: 400;
+// font-style: normal;
+//
+// Tisa Pro Medium Italic
+// font-family: ff-tisa-web-pro, serif;
+// font-weight: 600;
+// font-style: italic;
 
 // Serif font family
 // @type List
-$serif: "Libre Baskerville", serif;
+$serif: ff-tisa-web-pro, serif;
 
 // Sans-serif font family
 // @type List
@@ -52,7 +61,7 @@ $link-border: #e7e7e0;
 $background-color: #fffbf9 !default;
 
 // List grey
-$warm-grey: #999994;
+$warm-grey: #73736f;
 
 // logo bg
 $logo-brown: #2c2525;
@@ -62,6 +71,14 @@ $black: #000;
 
 // White
 $white: #fff;
+
+$border: #d7d3d1;
+
+$link-blue: rgb(161, 209, 253);
+
+$button: #684d47;
+
+$green: #3c8400;
 
 // Container's maximum width
 // @type Length
