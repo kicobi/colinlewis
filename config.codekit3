@@ -2592,19 +2592,6 @@
       "oAP" : "\/fonts\/HalisR-S-Medium-webfont.woff2",
       "oF" : 0
     },
-    "\/icon.png" : {
-      "ft" : 32768,
-      "iS" : 9455,
-      "oA" : 0,
-      "oAP" : "\/icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/img\/author-jp@2x.png" : {
       "ft" : 32768,
       "iS" : 22167,
@@ -2631,6 +2618,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/fb-image_2.png" : {
+      "ft" : 32768,
+      "iS" : 88563,
+      "oA" : 0,
+      "oAP" : "\/img\/fb-image_2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/headshot_bw@2x.png" : {
+      "ft" : 32768,
+      "iS" : 51195,
+      "oA" : 0,
+      "oAP" : "\/img\/headshot_bw@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/icon-arrow-down.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -2646,26 +2659,6 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/img\/icon-compass.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/img\/icon-exclamation_2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/icon-exclamation_2.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/img\/icon-exclamation.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/icon-exclamation.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088191,
@@ -2771,6 +2764,19 @@
       "plM" : 3758088191,
       "prP" : 1
     },
+    "\/img\/icon.png" : {
+      "ft" : 32768,
+      "iS" : 9455,
+      "oA" : 0,
+      "oAP" : "\/img\/icon.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2778,19 +2784,6 @@
       "oA" : 0,
       "oAP" : "\/img\/index.html",
       "oF" : 0
-    },
-    "\/img\/jane-parris@2x.jpg" : {
-      "ft" : 16384,
-      "iS" : 8824,
-      "jF" : 2,
-      "oA" : 0,
-      "oAP" : "\/img\/jane-parris@2x.jpg",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 85,
-      "rq" : 75
     },
     "\/img\/mark.svg" : {
       "ft" : 2097152,
@@ -3190,6 +3183,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 85,
+      "rq" : 75
+    },
+    "\/img\/tw-image.png" : {
+      "ft" : 32768,
+      "iS" : 71227,
+      "oA" : 0,
+      "oAP" : "\/img\/tw-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/index.html" : {
