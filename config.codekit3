@@ -2195,156 +2195,6 @@
       "q" : 85,
       "rq" : 75
     },
-    "\/_old img\/svg\/arrow-down.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/arrow-down.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/arrow-left.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/_old img\/svg\/arrow-left.svg",
-      "oF" : 1,
-      "opt" : 1,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/arrow-right.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/_old img\/svg\/arrow-right.svg",
-      "oF" : 1,
-      "opt" : 1,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/books.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/books.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/cl-logo_2.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/_old img\/svg\/cl-logo_2.svg",
-      "oF" : 1,
-      "opt" : 1,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/cl-logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/cl-logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/code.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/code.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/email.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/email.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/explosion.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/explosion.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/factory.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/factory.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/fossil.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/fossil.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/hand.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/hand.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/mountaineer.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/mountaineer.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/tree.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/tree.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
-    "\/_old img\/svg\/x.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/_old img\/svg\/x.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088191,
-      "prP" : 1
-    },
     "\/_old img\/Unlikely_Objects_mark_bw.png" : {
       "ft" : 32768,
       "iS" : 33788,
@@ -2386,103 +2236,6 @@
       "oA" : 0,
       "oAP" : "\/404.html",
       "oF" : 0
-    },
-    "\/bower_components\/responsively-lazy\/.bower.json" : {
-      "ft" : 524288,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/responsively-lazy\/.bower.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/bower_components\/responsively-lazy\/bower.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/bower_components\/responsively-lazy\/bower.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/bower_components\/responsively-lazy\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/bower_components\/responsively-lazy\/package.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
-    },
-    "\/bower_components\/responsively-lazy\/README.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/responsively-lazy\/README.md",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/bower_components\/responsively-lazy\/responsivelyLazy.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/responsively-lazy\/responsivelyLazy.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/bower_components\/responsively-lazy\/responsivelyLazy.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/bower_components\/responsively-lazy\/responsivelyLazy.js",
-      "oF" : 0,
-      "sC" : 1,
-      "tS" : 0
-    },
-    "\/bower_components\/responsively-lazy\/responsivelyLazy.min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/responsively-lazy\/responsivelyLazy.min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/bower_components\/responsively-lazy\/responsivelyLazy.min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 2,
-      "oAP" : "\/bower_components\/responsively-lazy\/responsivelyLazy.min.js",
-      "oF" : 0,
-      "sC" : 1,
-      "tS" : 0
-    },
-    "\/bower.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/bower-min.json",
-      "oF" : 0,
-      "oO" : 0,
-      "oS" : 1
     },
     "\/css\/style.css" : {
       "aP" : 1,
@@ -3250,20 +3003,12 @@
       "sC" : 0,
       "tS" : 0
     },
-    "\/pdf\/Colin-Lewis-CV.pdf" : {
+    "\/pdf\/cv-sv.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/pdf\/Colin-Lewis-CV.pdf",
-      "oF" : 0
-    },
-    "\/pdf\/cv_sv.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/pdf\/cv_sv.pdf",
+      "oAP" : "\/pdf\/cv-sv.pdf",
       "oF" : 0
     },
     "\/pdf\/cv.pdf" : {
@@ -3510,14 +3255,7 @@
 
   ],
   "manualImportLinks" : {
-    "\/js\/plugins.js" : [
-      {
-        "followForSyntaxChecking" : 0,
-        "linkedFileAbbreviatedPath" : "\/bower_components\/responsively-lazy\/responsivelyLazy.js",
-        "position" : 0,
-        "type" : 1
-      }
-    ]
+
   },
   "projectAttributes" : {
     "creationDate" : 566339604.64474797,
