@@ -163,14 +163,15 @@
   content: "";
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: 2.5rem 2.5rem;
-  background-blend-mode: darken;
-  background-color: transparent;
-  width: 2.5rem; // same dims as bg size
-  height: 2.5rem; // same dims as bg size
   vertical-align: middle;
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translateY(-50%);
+  transform: translate(1px, -50%);
+  height: 2rem;
+  width: 2rem;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }

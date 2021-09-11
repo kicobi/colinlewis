@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .container {
-  border-bottom: 6px solid $brand-color;
+  // border-bottom: 6px solid #594c70;
 }
 
 // -----------------------------------------------------------------------------
@@ -14,7 +14,8 @@
   margin: 0;
   padding: 0;
 
-  // Logo, top right
+  // Logo
+  // ------------------------------------
   &__logo {
     height: auto;
     margin: 0 auto;
@@ -37,7 +38,6 @@
   // ------------------------------------
 
   // Main heading
-
   &__heading {
     font-family: $sans-med;
     color: $brand-color;
@@ -46,7 +46,7 @@
     display: inline-block; // center the bg img under the heading
     margin: 0 0 1.2rem 0;
     padding: 8rem 0 5.5rem 0;
-    background: url("../img/svg/arrow-down.svg") no-repeat bottom center;
+    background: url("../img/icon-arrow-down.svg") no-repeat bottom center;
     background-size: 0.75em auto;
     font-weight: normal;
   }
@@ -54,62 +54,42 @@
   &__intro {
     // This is the first set of paragraphs
     font-family: $serif;
-    font-size: 1.5rem;
-    line-height: 1.55;
+    font-size: 1.6rem;
+    line-height: 1.45;
     text-align: justify;
 
     @include bp-375 {
       font-size: 1.6rem;
     }
 
+    // First intro paragraph
     &--1-1 {
-      margin: 1rem 0 0 0;
+      margin: 0.5rem 0 0 0;
       padding: 0;
     }
 
+    // Second intro paragraph
     &--1-2 {
       margin: 1rem 0 4rem 0;
 
       strong {
         font-weight: normal;
         font-family: $sans-sc-special;
+        text-transform: lowercase;
       }
-    }
-
-    // Inline icons for sites, books, etc.
-    // &--img {
-    //   background-repeat: no-repeat;
-    //   width: 1.8rem;
-    //   height: auto;
-    //   vertical-align: top;
-    //   margin-top: 0.3rem;
-    // }
-
-    .inline-illustration {
-      fill: #2c2525;
-      width: 1.8rem;
-      vertical-align: sub;
-    }
-
-    // This is the second ¶
-    &--2 {
-      font-style: italic;
-      font-size: 1rem;
-      line-height: 1.5;
-      padding-top: 1rem;
-      margin: 0 0 1rem 0;
     }
   }
 
   &__figure {
     margin: 0;
 
-    // First figure
+    // The factory icon
     &--wrapper-1 {
       display: block;
       height: auto;
       position: relative;
       margin-left: 7rem;
+      padding: 4rem 0 10rem 0;
 
       @include bp-360 {
         margin-left: 8rem;
@@ -125,47 +105,72 @@
     }
 
     &--1 {
-      border-bottom: 1px solid $accent-4;
+      border-bottom: 2px solid $border;
       position: relative;
-      margin-left: 1.5rem;
 
       object {
         width: 3.5rem;
         height: auto;
         vertical-align: bottom;
+        transform: translateY(
+          0.5px
+        ); // pull the svg down slightly to meet the border
       }
     }
+  }
 
-    // Second figure
-    &--2 {
-      margin: 0;
-      float: right;
+  // Testimonial
+  &__testimonial {
+    margin: 0;
+    position: relative;
+  }
 
-      object {
-        width: 5rem;
-        height: auto;
-      }
+  &__testimonial-quote {
+    font-family: $serif;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    text-align: justify;
+    font-style: italic;
+    margin: 0.5rem 7rem 0 0;
+  }
+
+  &__testimonial-meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translate(3rem, 0.5rem) rotate(90deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    &--author {
+      order: 1;
+      font-family: $sans-med;
+      text-transform: uppercase;
+      font-style: normal;
+      background: url("../img/icon-exclamation.svg") no-repeat center;
+      background-size: contain;
+      font-size: 80%;
+      text-align: center;
+      white-space: nowrap;
+      padding: 2rem 2.5rem 2rem 1.5rem;
     }
 
-    &--figcaption {
-      margin: 0;
-
-      &-1 {
-        // rotate and move the caption to the left of the image
-        display: inline-block;
-        transform: rotate(270deg);
-        transform-origin: center top;
-        margin: 0 0 0 -6.6rem;
-        font-style: italic;
-        color: $accent-5;
-      }
-
-      &-2 {
-        text-align: center;
-        font-style: italic;
-        color: $accent-5;
-      }
+    &--portrait {
+      order: 2;
+      transform: translateX(0.35rem) rotate(-90deg);
     }
+  }
+
+  &__testimonial-meta_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-indent: -9999em;
+    background: url("../img/author-jp@3x.png") no-repeat center;
+    background-size: contain;
+    width: 5rem;
+    height: 14rem;
   }
 }
 
@@ -186,96 +191,226 @@
   }
 }
 
-// Recently, Previously, Roots & branches
+// Recently, Links
 // ------------------------------------
 
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem; // add space between the sections
 
-  a,
-  a:link {
-    font-size: 1.5rem; // make the links larger than the ol list numbers
-  }
-  a,
-  a:link,
-  a:visited {
-    font-family: $sans-reg;
-    color: $brand-color;
-    color: $text-color;
-  }
-  a strong {
-    color: darken($brand-color, 3%);
-    font-family: $sans-sc;
-    text-transform: lowercase;
-  }
+  // Recently
+  // ------------------------------------
 
-  &__work {
-    clear: both;
-    padding-top: 3rem;
+  &__recently {
+    margin-top: 4rem;
 
-    &--figure {
-      margin: 0;
-      background-color: #f48621;
+    &--heading {
+      line-height: 3rem;
+      display: flex;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 3rem;
+        height: 3rem;
+        background-image: url("../img/icon-eye.svg");
+        padding-right: 4rem;
+      }
     }
 
-    &--img {
-      width: 50%;
-      margin: auto;
-      display: block;
-      padding: 3rem;
-    }
-
-    &--link {
-      font-weight: normal;
-      font-family: $sans-sc-special;
-      color: $brand-color !important;
-    }
-  }
-
-  &__roots {
     &--list {
-      margin-left: 0;
+      font-family: $sans-reg;
+      color: #4c6b79;
+      font-size: 1.2rem; // set the size of the list numbers
+      list-style: decimal outside none;
+      margin: 0 0 0 2.75rem;
+      // the item's left-padding + the list's left margin = the total left-margin for the section headings.
 
-      &-item-cv::after {
-        @include roots-bg;
-        background-image: url("../img/svg/pdf.svg");
-      }
+      li {
+        margin: 0;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem; // the item's left-padding + the list's left margin = the total left-margin for the section headings
 
-      &-item-linkedin::after {
-        @include roots-bg;
-        background-image: url("../img/svg/linkedin.svg");
-      }
+        p {
+          font-size: 1.35rem;
+          color: $text-color;
+          font-family: $serif;
+          margin: 0;
+          padding: 0;
 
-      &-item-github::after {
-        @include roots-bg;
-        background-image: url("../img/svg/github.svg");
+          strong {
+            font-family: $sans-reg;
+          }
+        }
+
+        a strong {
+          color: $text-color;
+          font-family: $sans-sc;
+          text-transform: lowercase;
+        }
       }
+    }
+  }
+
+  // Links
+  // ------------------------------------
+  &__links {
+    &--heading {
+      line-height: 3rem;
+      display: flex;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 3rem;
+        height: 3rem;
+        background-image: url("../img/icon-compass.svg");
+        padding-right: 4rem;
+      }
+    }
+
+    &--intro,
+    &--list {
+      margin-left: 4.1rem;
+    }
+
+    &--intro {
+      font-family: $serif;
+      font-size: 1.35rem;
+    }
+    &--list {
+      border-top: 4px dotted $border;
+      margin-top: 5rem;
+      padding-top: 4rem;
+      font-family: $serif;
+      font-size: 1.35rem;
 
       li {
         padding: 0.5rem 0;
-        background-image: url("../img/svg/roots-item-bg.svg");
+        background-image: url("../img/icon-links-item-bg_2.svg");
         background-repeat: repeat-x;
         background-position: center left;
+        background-size: contain;
+        font-family: $serif;
         position: relative;
 
-        span {
-          background-color: $background-color;
-          padding-right: 0.5rem;
+        @include on-event {
+          background-image: url("../img/icon-links-item-bg.svg");
+          a {
+            color: $text-color;
+          }
+          span {
+            &::after {
+              border-bottom: 3px solid $text-color;
+            }
+          }
         }
 
         a {
-          display: block;
+          color: $green;
+          padding-right: 0.5rem;
           text-decoration: none;
+          display: block;
+          position: relative;
 
-          @include on-event {
-            color: $brand-color;
-            border: none;
-            text-decoration: underline;
-            text-decoration-color: $accent-5;
-            text-underline-offset: 3px;
+          &::before {
+            content: "";
+            background-repeat: no-repeat;
+            background-position: right center;
+            vertical-align: middle;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(1px, -50%);
+            height: 2.5rem;
+            width: 2.5rem;
+            background-size: contain;
+            position: absolute;
+            top: 50%;
+            right: 0;
+          }
+
+          span {
+            background-color: $background-color;
+            padding-right: 0.5rem;
+            transform: translateX(-0.15rem);
+            display: inline-block;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: calc(100% - 0.5rem);
+              height: 1rem;
+              transition: all 250ms ease-in-out;
+              border-bottom: 3px solid $background-color;
+            }
           }
         }
       }
+
+      &-item-cv {
+        a::before {
+          background-image: url("../img/icon-pdf_2.svg");
+        }
+        @include on-event {
+          a::before {
+            background-image: url("../img/icon-pdf.svg");
+          }
+        }
+      }
+
+      &-item-linkedin {
+        a::before {
+          background-image: url("../img/icon-linkedin_2.svg");
+        }
+        @include on-event {
+          a::before {
+            background-image: url("../img/icon-linkedin.svg");
+          }
+        }
+      }
+
+      &-item-github {
+        a::before {
+          background-image: url("../img/icon-github_2.svg");
+        }
+        @include on-event {
+          a::before {
+            background-image: url("../img/icon-github.svg");
+          }
+        }
+      }
+    }
+  }
+
+  // Portfolio
+  // ------------------------------------
+
+  &__portfolio {
+    max-width: 60rem;
+    margin: 0 auto 8rem auto;
+
+    figcaption {
+      font-family: $serif;
+      font-style: italic;
+      text-align: center;
+      font-size: 1.15rem;
+      width: 100%;
+    }
+  }
+
+  &__portfolio-img-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    img {
+      max-width: calc(33% - (2rem / 3));
     }
   }
 }
@@ -287,34 +422,26 @@
 .footer {
   &__outro {
     &--link {
-      float: right;
       font-family: $serif;
-      font-style: italic;
+      float: right;
       font-size: 1.4rem;
       margin-top: 4rem;
-      padding: 5rem 0 2rem 0;
+      padding: 5rem 0 4rem 0;
       display: inline-block;
-      background: url("../img/svg/arrow-down.svg") no-repeat top left;
+      background: url("../img/icon-arrow-down.svg") no-repeat top left;
       background-size: 1.5rem auto;
 
-      &::after {
-        display: inline-block;
-        content: "";
-        background: url("../img/svg/email.svg") no-repeat;
-        background-size: 2.4rem auto;
-        width: 2.4rem; // same dims as bg size
-        height: 2.4rem; // same dims as bg size
-        vertical-align: middle;
-        margin-top: -0.5rem;
-        margin-left: 0.3rem;
-        opacity: 0.8;
+      a {
+        font-family: $serif;
+        text-decoration: none;
+        text-transform: none;
       }
     }
 
     &--links {
       font-family: $sans-reg;
       letter-spacing: 0.03rem;
-      text-transform: uppercase;
+      text-transform: lowercase;
       text-align: right;
       font-size: 0.8rem;
       color: $warm-grey;
@@ -322,19 +449,28 @@
       li {
         display: inline-block;
 
-        &:nth-child(-n + 2):after {
+        &:not(:last-child)::after {
           content: "//";
-          color: $accent-1;
+          color: $border;
         }
+
         a {
           color: $warm-grey;
-          &:hover,
-          &:focus {
-            color: darken($brand-color, 30%);
-            border-bottom: 1px dotted $link-border;
+          text-underline-offset: 4px;
+          text-decoration-color: $background-color;
+          text-decoration-style: solid;
+          text-decoration-thickness: 2px;
+
+          @include on-event {
+            color: $text-color;
+            text-decoration-color: $text-color;
           }
         }
       }
+    }
+
+    &--divider {
+      margin-left: 4.1rem;
     }
   }
 }
@@ -431,7 +567,7 @@
 }
 
 .delay-1 {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 
 .delay-2 {
