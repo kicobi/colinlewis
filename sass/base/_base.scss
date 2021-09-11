@@ -78,7 +78,7 @@ a:visited {
   text-decoration-color: $link-blue;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
-  transition: 2s;
+  transition: all 250ms ease-in-out;
 
   @include on-event {
     text-decoration-color: $text-color;

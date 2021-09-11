@@ -201,6 +201,8 @@
   // ------------------------------------
 
   &__recently {
+    margin-top: 4rem;
+
     &--heading {
       line-height: 3rem;
       display: flex;
@@ -299,6 +301,11 @@
           a {
             color: $text-color;
           }
+          span {
+            &::after {
+              border-bottom: 3px solid $text-color;
+            }
+          }
         }
 
         a {
@@ -328,8 +335,20 @@
           span {
             background-color: $background-color;
             padding-right: 0.5rem;
-            transform: translateY(-0.15rem);
+            transform: translateX(-0.15rem);
             display: inline-block;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: calc(100% - 0.5rem);
+              height: 1rem;
+              transition: all 250ms ease-in-out;
+              border-bottom: 3px solid $background-color;
+            }
           }
         }
       }
@@ -437,11 +456,14 @@
 
         a {
           color: $warm-grey;
-          text-decoration: none;
-          &:hover,
-          &:focus {
+          text-underline-offset: 4px;
+          text-decoration-color: $background-color;
+          text-decoration-style: solid;
+          text-decoration-thickness: 2px;
+
+          @include on-event {
             color: $text-color;
-            border-bottom: 0;
+            text-decoration-color: $text-color;
           }
         }
       }
