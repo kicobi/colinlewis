@@ -454,12 +454,17 @@
           color: $border;
         }
 
+        span {
+          margin-right: -0.2rem;
+        }
+
         a {
           color: $warm-grey;
           text-underline-offset: 4px;
           text-decoration-color: $background-color;
           text-decoration-style: solid;
           text-decoration-thickness: 2px;
+          margin-right: 0.3rem;
 
           @include on-event {
             color: $text-color;
