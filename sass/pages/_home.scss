@@ -375,6 +375,17 @@
         }
       }
 
+      &-item-codeable {
+        a::before {
+          background-image: url("../img/icon-codeable_2.svg");
+        }
+        @include on-event {
+          a::before {
+            background-image: url("../img/icon-codeable.svg");
+          }
+        }
+      }
+
       &-item-github {
         a::before {
           background-image: url("../img/icon-github_2.svg");

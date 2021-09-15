@@ -203,6 +203,26 @@
       "plM" : 3758088191,
       "prP" : 1
     },
+    "\/img\/icon-codeable_2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/icon-codeable_2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088191,
+      "prP" : 0
+    },
+    "\/img\/icon-codeable.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/icon-codeable.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088191,
+      "prP" : 0
+    },
     "\/img\/icon-compass.svg" : {
       "ft" : 2097152,
       "miP" : 0,
