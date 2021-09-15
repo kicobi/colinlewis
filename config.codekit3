@@ -978,14 +978,6 @@
       "oAP" : "\/pdf\/cv-sv.pdf",
       "oF" : 1
     },
-    "\/pdf\/cv.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/pdf\/cv.pdf",
-      "oF" : 1
-    },
     "\/pdf\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
