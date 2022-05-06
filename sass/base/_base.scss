@@ -75,13 +75,14 @@ a:visited {
   color: $text-color;
   text-transform: lowercase;
   text-underline-offset: 4px;
-  text-decoration-color: $link-blue;
+  // text-decoration-color: $link-blue;
+  text-decoration-color: $warm-grey;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
   transition: all 250ms ease-in-out;
 
   @include on-event {
-    text-decoration-color: $text-color;
+    text-decoration-color: $border;
   }
 }
 

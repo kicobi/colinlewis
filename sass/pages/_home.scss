@@ -31,6 +31,7 @@
       width: 4rem;
       height: 4rem;
       box-shadow: 0 0 3.5rem 0 rgba(0, 0, 0, 0.1);
+      border: 0.1rem solid rgba(0, 0, 0, 0.04);
     }
   }
 
@@ -70,13 +71,17 @@
 
     // Second intro paragraph
     &--1-2 {
-      margin: 1rem 0 4rem 0;
+      margin: 1rem 0 0 0;
 
       strong {
         font-weight: normal;
         font-family: $sans-sc-special;
         text-transform: lowercase;
       }
+    }
+
+    &--cta {
+      margin: 1.5rem 0 4rem 0;
     }
   }
 
@@ -105,7 +110,7 @@
     }
 
     &--1 {
-      border-bottom: 2px solid $border;
+      border-bottom: 2px solid rgba($border, 0.65);
       position: relative;
 
       object {
@@ -266,12 +271,14 @@
         background-size: contain;
         width: 3rem;
         height: 3rem;
-        background-image: url("../img/icon-compass.svg");
+        // background-image: url("../img/icon-compass.svg");
+        background-image: url("../img/icon-eye.svg");
         padding-right: 4rem;
       }
     }
 
     &--intro,
+    &--worklist,
     &--list {
       margin-left: 4.1rem;
     }
@@ -280,8 +287,27 @@
       font-family: $serif;
       font-size: 1.35rem;
     }
+
+    &--worklist {
+      list-style-type: square;
+      font-style: italic;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-family: $serif;
+      font-size: 1.25rem;
+      margin-bottom: 4.5rem;
+
+      a {
+        font-style: normal;
+        text-decoration-color: $warm-grey;
+        &:hover {
+          // text-decoration-color: #a1d1fd;
+        }
+      }
+    }
+
     &--list {
-      border-top: 4px dotted $border;
+      border-top: 4px dotted rgba($border, 0.65);
       margin-top: 5rem;
       padding-top: 4rem;
       font-family: $serif;
@@ -297,7 +323,7 @@
         position: relative;
 
         @include on-event {
-          background-image: url("../img/icon-links-item-bg.svg");
+          // background-image: url("../img/icon-links-item-bg.svg");
           a {
             color: $text-color;
           }
@@ -309,7 +335,8 @@
         }
 
         a {
-          color: $green;
+          // color: $green;
+          color: $text-color;
           padding-right: 0.5rem;
           text-decoration: none;
           display: block;
@@ -355,44 +382,45 @@
 
       &-item-cv {
         a::before {
-          background-image: url("../img/icon-pdf_2.svg");
+          background-image: url("../img/icon-pdf.svg");
         }
         @include on-event {
           a::before {
-            background-image: url("../img/icon-pdf.svg");
+            // background-image: url("../img/icon-pdf.svg");
           }
         }
       }
 
       &-item-linkedin {
         a::before {
-          background-image: url("../img/icon-linkedin_2.svg");
+          background-image: url("../img/icon-linkedin.svg");
         }
         @include on-event {
           a::before {
-            background-image: url("../img/icon-linkedin.svg");
+            // background-image: url("../img/icon-linkedin.svg");
           }
         }
       }
 
       &-item-codeable {
         a::before {
-          background-image: url("../img/icon-codeable_2.svg");
+          background-image: url("../img/icon-codeable.svg");
         }
         @include on-event {
           a::before {
-            background-image: url("../img/icon-codeable.svg");
+            // background-image: url("../img/icon-codeable.svg");
           }
         }
       }
 
       &-item-github {
         a::before {
-          background-image: url("../img/icon-github_2.svg");
+          background-image: url("../img/icon-github.svg");
         }
         @include on-event {
           a::before {
-            background-image: url("../img/icon-github.svg");
+            opacity: 0.8;
+            // background-image: url("../img/icon-github.svg");
           }
         }
       }
