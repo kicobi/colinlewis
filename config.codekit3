@@ -7,7 +7,7 @@
       "uuidString" : "99E32BA3-4065-4D36-B630-4AACDB5139FF"
     }
   ],
-  "creatorBuild" : "34359",
+  "creatorBuild" : "34365",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -272,11 +272,11 @@
       "plM" : 3758088191,
       "prP" : 1
     },
-    "\/img\/icon-eye copy.svg" : {
+    "\/img\/icon-eye-bw.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/img\/icon-eye copy.svg",
+      "oAP" : "\/img\/icon-eye-bw.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088191,
