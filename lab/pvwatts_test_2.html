@@ -1,0 +1,174 @@
+<!-- 
+Sample address: 
+115 Wyanoke Dr San Antonio TX 78209 USA
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PVWatts API test</title>
+  <style>
+    body { padding: 2rem; font-family: sans-serif; font-size: 1rem; }
+    #address { font-size:1rem; width:20rem; padding:0.5rem; }
+    #submit { font-size:1rem; width:auto; padding:0.5rem; }
+  </style>
+</head>
+
+<body>
+  <h1>PVWatts API Test</h1>
+  <p>Enter your address:</p>
+  <input type="text" id="address" placeholder="Your address">
+  <br><br>
+
+  <!-- Inputs for PVWatts parameters -->
+  <label>DC System Size (kW):</label>
+  <input type="number" id="system_capacity" value="4" step="0.1" style="width: 5rem;">
+  <br><br>
+
+  <label>Module Type:</label>
+  <select id="module_type">
+    <option value="0">Standard</option>
+    <option value="1">Premium</option>
+    <option value="2">Thin film</option>
+  </select>
+  <br><br>
+
+  <label>Array Type:</label>
+  <select id="array_type">
+    <option value="0">Fixed (roof mount)</option>
+    <option value="1" selected>Fixed (open rack)</option>
+    <option value="2">1-axis tracking</option>
+    <option value="3">2-axis tracking</option>
+  </select>
+  <br><br>
+
+  <label>System Losses (%):</label>
+  <input type="number" id="losses" value="14.08" step="0.01" style="width: 5rem;">
+  <br><br>
+
+  <label>Tilt (deg):</label>
+  <input type="number" id="tilt" value="20" style="width: 5rem;">
+  <br><br>
+
+  <label>Azimuth (deg):</label>
+  <input type="number" id="azimuth" value="180" style="width: 5rem;">
+  <br><br>
+
+  <button onclick="getCoordinates()" id="submit">Submit</button>
+  <br>
+  <div id="output"></div>
+
+  <script>
+    const pvwattsApiKey = "kstxo6xFZ6hA3n2UNX8gkpnLzEflnwHYXDcgCyRt"; // PVWatts API
+    const geocodingApiKey = "717b73eae45e42cbb393c0e45b593a5a"; // OpenCage API
+
+    // Get latitude and longitude from address using geocoding service
+    function getCoordinates() {
+      const address = document.getElementById("address").value;
+      const geocodingUrl = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(address)}&key=${geocodingApiKey}`;
+
+      fetch(geocodingUrl)
+        .then(response => response.json())
+        .then(data => {
+          if (data.results.length > 0) {
+            const latitude = data.results[0].geometry.lat;
+            const longitude = data.results[0].geometry.lng;
+            getSolarData(latitude, longitude, address);
+          } else {
+            document.getElementById("output").innerHTML = "Invalid address.";
+          }
+        })
+        .catch(error => {
+          console.error(error);
+          document.getElementById("output").innerHTML = "Error: " + error;
+        });
+    }
+
+    // Fetch solar data from PVWatts API
+    function getSolarData(latitude, longitude, userAddress) {
+      // Get the values from the input fields
+      const system_capacity = document.getElementById("system_capacity").value;
+      const module_type = document.getElementById("module_type").value;
+      const array_type = document.getElementById("array_type").value;
+      const losses = document.getElementById("losses").value;
+      const tilt = document.getElementById("tilt").value;
+      const azimuth = document.getElementById("azimuth").value;
+
+      // API URL with the dynamic input values
+      const url = `https://developer.nrel.gov/api/pvwatts/v8.json?api_key=${pvwattsApiKey}&lat=${latitude}&lon=${longitude}&system_capacity=${system_capacity}&module_type=${module_type}&losses=${losses}&array_type=${array_type}&tilt=${tilt}&azimuth=${azimuth}`;
+
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          const output = document.getElementById("output");
+
+          // Extract data points, fallback to "N/A" if undefined
+          const ac_annual = data.outputs.ac_annual ? data.outputs.ac_annual.toFixed(2) : "N/A";
+          const dc_annual = data.outputs.dc_annual ? data.outputs.dc_annual.toFixed(2) : "N/A";
+          const capacity_factor = data.outputs.capacity_factor ? data.outputs.capacity_factor.toFixed(2) : "N/A";
+          const solrad_annual = data.outputs.solrad_annual ? data.outputs.solrad_annual.toFixed(2) : "N/A";
+
+          const ac_monthly = data.outputs.ac_monthly
+            ? data.outputs.ac_monthly.map(value => value.toFixed(2))
+            : [];
+          const dc_monthly = data.outputs.dc_monthly
+            ? data.outputs.dc_monthly.map(value => value.toFixed(2))
+            : [];
+          const solrad_monthly = data.outputs.solrad_monthly
+            ? data.outputs.solrad_monthly.map(value => value.toFixed(2))
+            : [];
+
+          // Table
+          const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+          let table = `
+            <table border="1" cellpadding="5" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>AC Energy Production (kWh)</th>
+                  <th>DC Energy Production (kWh)</th>
+                  <th>Solar Radiation (kWh/m&sup2;/day)</th>
+                </tr>
+              </thead>
+              <tbody>
+          `;
+
+          // Populate the table
+          for (let i = 0; i < months.length; i++) {
+            table += `
+              <tr>
+                <td>${months[i]}</td>
+                <td>${ac_monthly[i] || "N/A"}</td>
+                <td>${dc_monthly[i] || "N/A"}</td>
+                <td>${solrad_monthly[i] || "N/A"}</td>
+              </tr>
+            `;
+          }
+
+          table += `</tbody></table>`;
+
+          // Display content
+          output.innerHTML = `
+            <br><hr><br>
+            <p><b>Data for:</b> ${userAddress}</p>
+            <b>Estimated Annual AC Energy Production:</b> ${ac_annual} kWh<br>
+            <b>Estimated Annual DC Energy Production:</b> ${dc_annual} kWh<br>
+            <b>Capacity Factor:</b> ${capacity_factor}%<br>
+            <b>Annual Solar Radiation:</b> ${solrad_annual} kWh/m&sup2;/day<br>
+            <br>
+            <h3>Monthly Energy Production and Solar Radiation</h3>
+            ${table}
+          `;
+        })
+        .catch(error => {
+          console.error(error);
+          document.getElementById("output").innerHTML = "Error: " + error;
+        });
+    }
+  </script>
+</body>
+
+</html>
